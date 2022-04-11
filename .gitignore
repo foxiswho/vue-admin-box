@@ -6,3 +6,9 @@ yarn.lock
 yarn-error.log
 .vscode
 .idea
+
+!.yarn/releases/yarn-berry.cjs
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.pnp*
