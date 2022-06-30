@@ -157,6 +157,7 @@ export default defineComponent({
 }
 .item-tool-box {
   position: relative;
+  border: 1px dashed #2e73ff;
 }
 .el-scrollbar__view {
   height: 100%;
