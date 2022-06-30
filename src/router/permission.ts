@@ -25,6 +25,7 @@ import SystemManage from './modules/systemManage'
 import Chart from './modules/chart'
 import Print from './modules/print'
 import Community from './modules/community'
+import generator from './modules/generator'
 
 /** 登录后需要动态加入的本地路由 */
 const asyncRoutes: Route[] = [
@@ -38,6 +39,7 @@ const asyncRoutes: Route[] = [
   ...SystemManage,
   ...Print,
   ...Community,
+  ...generator,
 ]
 
 /** 
